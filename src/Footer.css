@@ -1,0 +1,100 @@
+.footer{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    background-color: #37475a;
+    justify-content: center;
+    /* position: sticky; */
+    top: 0;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.btn__back{
+    border: #37475a;
+    background-color: #37475a;
+    color: white;
+}
+
+.connect__details{
+    background-color: #232f3e;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+
+.inside__connect{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    height: fit-content;
+}
+
+.connect__heading{
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.connect__more{
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: rgb(184, 184, 184);
+    cursor: pointer;
+}
+
+.amazon_city_list{
+    background-color:#232f3e;
+    align-content: center;
+
+}
+
+.logo_language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown__button{
+    background-color: #232f3e;
+}
+
+.contries__name{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 270px;
+    margin-right: 270px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.name__country{
+    color: rgb(184, 184, 184);
+    font-size: small;
+}
+
+.privacy__notice{
+    background-color: #131a22;
+    padding-left: 540px;
+    padding-right: 540px;
+    color: rgb(184, 184, 184);
+    font-size: small;
+    height: 140px;
+
+}
+
+.privacy__details{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.conditions{
+    padding-left: 60px;
+    cursor: pointer;
+}
